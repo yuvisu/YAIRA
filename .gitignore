@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — by default, do not commit raw or interim data; processed only if small
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Baselines — code is cloned per-paper and pinned by commit hash; not committed here
+baselines/*/code/
+baselines/*/env/.venv/
+baselines/*/results.json
+
+# Artifacts — generated; commit only what's needed for the paper
+artifacts/figures/*
+!artifacts/figures/.gitkeep
+artifacts/tables/*
+!artifacts/tables/.gitkeep
+artifacts/reports/*
+!artifacts/reports/.gitkeep
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key

@@ -1,0 +1,2 @@
+paper_id,citation_key,title,authors,year,venue,doi_or_arxiv,topic_tags,prior_art_coverage,feasibility_notes,data_availability,baseline_relevance,reproduce,priority,code_url,notes
+P0001,smith2024example,Example Paper Title,"Smith et al.",2024,NeurIPS,arxiv:2401.00000,"tag1; tag2",none|partial|full,"compute=4xA100 / IRB=n/a","public; CC-BY",baseline|sota|tangential,yes|no|maybe,1-5,https://github.com/...,"free-form notes"
