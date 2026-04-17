@@ -1,6 +1,8 @@
 # Research Project — `<project-name>`
 
-A new research project scaffolded from the lab's standard workflow template (`YAIRA`).
+A new research project scaffolded from the lab's standard workflow template (`YAIRA` — Yu's AI Research Assistant, v1.1).
+
+![YAIRA framework](framework.png)
 
 > **New here? Read [`QUICKSTART.md`](QUICKSTART.md) first.** It has the copy-paste commands, the first prompt for Claude, and the per-stage loop on one page.
 
