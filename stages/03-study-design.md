@@ -19,6 +19,12 @@ Choose the design that lets the data answer the stage-1 research question. Lock 
 3. AI re-reads the human-edited draft and flags remaining gaps (selection bias, confounders, leakage, sample-size adequacy, generalization claim alignment).
 4. Iterate until both sides are satisfied.
 
+## Recommended skills
+
+- **`document-skills:doc-coauthoring`** — structured workflow for the AI-draft → human-edit → AI-gap-flag loop.
+- **`document-skills:canvas-design`** — produce CONSORT-style flowcharts, patient-timeline figures, or train/val/test split diagrams (save to `artifacts/figures/03-study-design.<ext>`).
+- **`brainstorming`** — dialogue around tradeoffs (design type, stratification strategy, leakage avoidance).
+
 ## Artifact(s)
 
 - This file.

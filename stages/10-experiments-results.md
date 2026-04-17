@@ -26,6 +26,14 @@ Run every experiment in Stage 09's experiment list. Produce result tables, figur
 5. Update the run-status table below as runs complete.
 6. If results suggest revising Stage 09 settings (e.g., metric-sensitive findings) or Stage 08 method (e.g., a fix unlocks a much stronger ablation), flag in `capture.md` and propose re-opening that stage.
 
+## Recommended skills
+
+- **`superpowers:executing-plans`** — execute the Stage 09 plan step by step, with review checkpoints.
+- **`superpowers:dispatching-parallel-agents`** — launch independent experiments (different seeds, different ablations) in parallel.
+- **`superpowers:verification-before-completion`** — confirm every experiment completed with evidence (logs + metrics on disk) before marking `done`.
+- **`imagegen`** — generate publication-ready figures where matplotlib alone is insufficient.
+- **`document-skills:xlsx`** — assemble `artifacts/tables/results.csv` and derived pivot tables.
+
 ## Artifact(s)
 
 - `notebooks/10-*.ipynb` and/or `src/run/*.py` per experiment.

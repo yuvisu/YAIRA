@@ -26,6 +26,11 @@ Build a clear empirical picture of the data before designing preprocessing and m
 3. Summarize the notebook's findings in this file's "Findings" section.
 4. If findings imply changes upstream (e.g., severe imbalance → revisit Stage 03 cohort, or missing key columns → revisit Stage 04 acquisition), flag in `capture.md` and propose re-opening the relevant stage.
 
+## Recommended skills
+
+- **`document-skills:doc-coauthoring`** — structured workflow for the "Findings" and "Implications for downstream stages" sections.
+- **`document-skills:xlsx`** — if the raw data arrives as spreadsheets, or for exporting compact summary tables (missingness rates, class counts) into `artifacts/tables/`.
+
 ## Artifact(s)
 
 - `notebooks/05-eda.ipynb` (committed; cleared outputs are OK if rerunnable).

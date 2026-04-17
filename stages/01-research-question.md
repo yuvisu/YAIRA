@@ -28,6 +28,10 @@ Articulate a specific, testable research question (and one or more hypotheses) t
    - Question is **solid** → proceed to sign-off.
    - Question needs **revision** → flip status back to `in-progress`, edit "Current draft", append a `Cycle history` entry, and re-enter Stage 02.
 
+## Recommended skills
+
+- **`brainstorming`** — one-question-at-a-time dialogue that matches the Reviewer role perfectly for refining the research question and surfacing hidden assumptions.
+
 ## Artifact(s)
 
 - This file, with "Current draft" filled and "Cycle history" populated.

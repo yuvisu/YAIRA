@@ -24,6 +24,11 @@ Procure the data described in Stage 02's data-availability table and Stage 03's 
 3. Confirm licenses are recorded and compatible with the project's intended outputs (paper, code release).
 4. Flag any dataset that is restricted (PHI, license-restricted) so downstream stages handle it correctly.
 
+## Recommended skills
+
+- **`document-skills:docx`** — draft IRB amendments, data-use agreements, or access-request letters when acquisition requires paperwork.
+- **`document-skills:pdf`** — parse data-dictionary PDFs, license agreements, and vendor documentation.
+
 ## Artifact(s)
 
 - This file with provenance table filled.

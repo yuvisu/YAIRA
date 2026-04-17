@@ -27,6 +27,11 @@ Turn `data/raw/` into a model-ready `data/processed/` artifact via a reproducibl
 5. Run end-to-end on raw data; verify processed artifact shape matches expectations from Stage 05.
 6. Document each step's rationale in the table below.
 
+## Recommended skills
+
+- **`superpowers:test-driven-development`** — write tests for each preprocessing step before implementing; catches leakage (train-only steps being fit on val/test) early.
+- **`superpowers:verification-before-completion`** — run the full pipeline end-to-end and confirm output shape + manifest hash before sign-off. Evidence before assertions.
+
 ## Artifact(s)
 
 - `src/preprocess.py` (or `src/preprocess/`).

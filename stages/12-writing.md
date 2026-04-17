@@ -28,6 +28,13 @@ Produce a paper draft (or thesis chapter) by stitching together earlier stage do
 6. Render figures and tables into the paper from `artifacts/`.
 7. Pre-submission checklist (below).
 
+## Recommended skills
+
+- **`document-skills:doc-coauthoring`** — paragraph-by-paragraph co-authoring of every section; primary driver of this stage.
+- **`document-skills:docx`** — when the venue/advisor wants a Word manuscript instead of LaTeX.
+- **`document-skills:pdf`** — produce, inspect, and QA the final compiled PDF.
+- **`document-skills:pptx`** — render `capture.md` entries and headline figures into slide decks for advisor meetings and conference talks.
+
 ## Artifact(s)
 
 - `artifacts/paper/main.tex` (or `main.md`).

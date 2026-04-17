@@ -21,6 +21,11 @@ Lock the experimental protocol — environment, splits, metrics, the full experi
 3. AI re-reads the human-edited draft and flags remaining gaps (missing ablations, metric–question mismatch, leakage, missing seeds, hardware mismatch with baselines).
 4. Iterate until satisfied. Once approved, this is the contract for Stage 10.
 
+## Recommended skills
+
+- **`document-skills:doc-coauthoring`** — structured workflow for drafting environment, splits, metrics, experiment list, and reporting plan.
+- **`superpowers:writing-plans`** — turn the experiment list into an executable plan that Stage 10 can follow without reinterpretation.
+
 ## Artifact(s)
 
 - This file.

@@ -30,6 +30,13 @@ For each row in `refs/survey.csv` with `reproduce: yes`, in priority order:
 9. **Write `baselines/<paper-slug>/OPTIMIZATION.md`** — see template below.
 10. ★ **Sign-off**: human marks the baseline `reproduced | deviated | abandoned` with a one-line reason.
 
+## Recommended skills
+
+- **`superpowers:systematic-debugging`** — use when README quickstart fails (step 6). Avoids flailing through env mismatches, deprecated APIs, and missing data paths.
+- **`superpowers:verification-before-completion`** — before marking a baseline `reproduced`, confirm the metric within tolerance with evidence (not just a successful run).
+- **`superpowers:test-driven-development`** — wrap each baseline's evaluation in a reusable test harness so re-runs (and project-data runs) are deterministic.
+- **`superpowers:using-git-worktrees`** — isolate each baseline in its own worktree so their conflicting dependencies don't pollute the main project env.
+
 ## Artifact(s)
 
 - `baselines/<paper-slug>/code/` — pinned clone.

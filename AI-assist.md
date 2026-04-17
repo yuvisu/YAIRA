@@ -77,7 +77,34 @@ If a downstream finding requires changing an upstream stage:
 
 Never silently rewrite an approved stage.
 
-## 6. Project-specific pointers (TODO — fill on first use)
+## 6. Recommended skills per stage
+
+The table below maps each stage to the skills you should proactively invoke when that stage is active. Skill names are the exact invocation strings. Consult each stage's own `## Recommended skills` section for per-skill rationale.
+
+| # | Stage | Recommended skills |
+| - | ------------------------------ | ------------------ |
+| 0 | Setup                          | `update-config`, `less-permission-prompts`, `init` |
+| 1 | Research Question & Hypothesis | `brainstorming` |
+| 2 | Literature Review              | `paperclip-engine`, `focus`, `document-skills:pdf`, `document-skills:xlsx`, `document-skills:doc-coauthoring` |
+| 3 | Study Design                   | `document-skills:doc-coauthoring`, `document-skills:canvas-design`, `brainstorming` |
+| 4 | Data Acquisition               | `document-skills:docx`, `document-skills:pdf` |
+| 5 | EDA                            | `document-skills:doc-coauthoring`, `document-skills:xlsx` |
+| 6 | Preprocessing                  | `superpowers:test-driven-development`, `superpowers:verification-before-completion` |
+| 7 | Baseline & SOTA Reproduction   | `superpowers:systematic-debugging`, `superpowers:verification-before-completion`, `superpowers:test-driven-development`, `superpowers:using-git-worktrees` |
+| 8 | Methods                        | `document-skills:doc-coauthoring`, `brainstorming`, `superpowers:writing-plans` |
+| 9 | Experimental Settings          | `document-skills:doc-coauthoring`, `superpowers:writing-plans` |
+| 10 | Experiments & Results         | `superpowers:executing-plans`, `superpowers:dispatching-parallel-agents`, `superpowers:verification-before-completion`, `imagegen`, `document-skills:xlsx` |
+| 11 | Discussion & Conclusion       | `document-skills:doc-coauthoring`, `focus` |
+| 12 | Writing                       | `document-skills:doc-coauthoring`, `document-skills:docx`, `document-skills:pdf`, `document-skills:pptx` |
+
+**Cross-cutting** (applies throughout the project):
+
+- **`loop`** — schedule periodic wake-ups to draft the next `capture.md` entry (default: every two weeks). Human reviews and commits.
+- **`superpowers:using-superpowers`** — the umbrella skill that reminds you to invoke other skills proactively.
+
+**Rule**: when a stage is active and a recommended skill applies, invoke it via the Skill tool before answering — do not simulate the skill's workflow from memory.
+
+## 7. Project-specific pointers (TODO — fill on first use)
 
 > Lab member: replace this section with project-specific information.
 

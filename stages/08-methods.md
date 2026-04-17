@@ -21,6 +21,12 @@ Specify the proposed method precisely enough that another competent ML engineer 
 3. AI proposes a reference implementation skeleton in `src/methods/<method-name>.py` (interfaces + stubs; full impl can be in Stage 10's prep).
 4. AI flags any ablation that the method's structure naturally invites; carry these into Stage 09.
 
+## Recommended skills
+
+- **`document-skills:doc-coauthoring`** — structured co-authoring for the IPO writeup and rationale.
+- **`brainstorming`** — dialogue-driven exploration of design choices (architecture, loss, regularization) before committing.
+- **`superpowers:writing-plans`** — plan the reference-implementation skeleton; carries cleanly into Stage 10 when experiments need to be executed against it.
+
 ## Artifact(s)
 
 - This file with IPO and rationale filled.

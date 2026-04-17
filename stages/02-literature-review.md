@@ -27,6 +27,14 @@ Survey prior work that bears on the stage-1 research question, assess feasibilit
 5. **Write the "Implications for the question" section** (mandatory): given what was found, is the stage-1 question (a) already answered, (b) needs sharpening, (c) needs broadening, (d) infeasible as stated, or (e) solid as-is?
 6. **Hand back to Stage 01.** Human decides revise or exit. If revise: this stage's status flips back to `in-progress`; the next pass updates the survey delta rather than redoing it.
 
+## Recommended skills
+
+- **`paperclip-engine`** — biomedical paper search / retrieval / evidence synthesis. Primary driver of the survey; produces rows for `refs/survey.csv`.
+- **`focus`** — rigorous section-by-section paper summarization with direct quotes. Use for the "Representative papers (deep dives)" subsection.
+- **`document-skills:pdf`** — read downloaded paper PDFs when the `paperclip-engine` snippet is not enough.
+- **`document-skills:xlsx`** — manage `refs/survey.csv`; can also scale the survey table into a proper spreadsheet if needed.
+- **`document-skills:doc-coauthoring`** — structured co-authoring workflow for the "Narrative" and "Implications for the question" sections.
+
 ## Artifact(s)
 
 - This file: narrative + implications + representative-papers detail.

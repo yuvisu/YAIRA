@@ -22,6 +22,11 @@ Interpret the Stage 10 results: what they say, what they mean, where they fail, 
 4. Cross-check: every limitation listed here also appears as a "threat to validity" or future-work item.
 5. Identify next steps; promote the most concrete to ADRs or follow-up project candidates.
 
+## Recommended skills
+
+- **`document-skills:doc-coauthoring`** — structured co-authoring for interpretation, limitations, and conclusion.
+- **`focus`** — when re-reading specific prior-work papers to ground the "Comparison to prior work" subsection with direct quotes.
+
 ## Artifact(s)
 
 - This file.

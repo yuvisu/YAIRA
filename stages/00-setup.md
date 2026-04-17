@@ -25,6 +25,12 @@ Get the project workspace, environment, data access, and AI-assistant orientatio
 7. Optional: hook up a hosted git remote (GitHub / GitLab / lab Gitea).
 8. Run a smoke test: a one-line script in `src/` that imports the env and prints versions. Commit it.
 
+## Recommended skills
+
+- **`update-config`** — tune `settings.json` (permissions, hooks, env vars) for this project.
+- **`less-permission-prompts`** — scan past transcripts and auto-allowlist read-only commands to reduce friction.
+- **`init`** — seed a project-level AI-instruction file. Treat its output as raw material for `AI-assist.md`'s project-specific section, not as a replacement.
+
 ## Artifact(s)
 
 - This file, with the exit checklist completed.
